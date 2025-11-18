@@ -1,27 +1,19 @@
 # Deployment Instructions for GitHub Pages
 
-## Option 1: Using mrvphysiotherapycenter.github.io (Recommended)
+## Option 1: Using mrvadvancephysiotherapycenter.github.io (Recommended)
 
-To use the clean URL `https://mrvphysiotherapycenter.github.io`, you need to:
+To use the clean URL `https://mrvadvancephysiotherapycenter.github.io`:
 
-### Step 1: Create GitHub Organization
+### Step 1: Create Repository in Organization
 
-1. Go to https://github.com/organizations/new
-2. Choose **Create a free organization**
-3. Organization name: `mrvphysiotherapycenter`
-4. Contact email: Your email
-5. Complete the setup
-
-### Step 2: Create Repository in Organization
-
-1. Go to https://github.com/organizations/mrvphysiotherapycenter/repositories/new
-2. Repository name: `mrvphysiotherapycenter.github.io` (MUST be exactly this name)
+1. Go to https://github.com/organizations/mrvadvancephysiotherapycenter/repositories/new
+2. Repository name: `mrvadvancephysiotherapycenter.github.io` (MUST be exactly this name)
 3. Description: "MRV Advance Physiotherapy Center - Official Website"
 4. Set to **Public** (required for free GitHub Pages)
 5. **DO NOT** initialize with README, .gitignore, or license (we already have these)
 6. Click "Create repository"
 
-### Step 3: Push Code to GitHub
+### Step 2: Push Code to GitHub
 
 Run these commands in the terminal:
 
@@ -29,17 +21,17 @@ Run these commands in the terminal:
 cd /Users/arunkumarm/vmware_git/arun-work/mrv-physiotherapy-website
 
 # Add the remote repository
-git remote add origin https://github.com/mrvphysiotherapycenter/mrvphysiotherapycenter.github.io.git
+git remote add origin https://github.com/mrvadvancephysiotherapycenter/mrvadvancephysiotherapycenter.github.io.git
 
 # Push to GitHub
 git branch -M main
 git push -u origin main
 ```
 
-### Step 4: Access Your Website
+### Step 3: Access Your Website
 
 Your website will be automatically available at:
-- **GitHub Pages URL**: `https://mrvphysiotherapycenter.github.io`
+- **GitHub Pages URL**: `https://mrvadvancephysiotherapycenter.github.io`
 - No need to enable Pages settings - it's automatic with this naming convention!
 
 ---
