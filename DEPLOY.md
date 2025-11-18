@@ -1,6 +1,54 @@
 # Deployment Instructions for GitHub Pages
 
-## Step 1: Create GitHub Repository
+## Option 1: Using mrvphysiotherapycenter.github.io (Recommended)
+
+To use the clean URL `https://mrvphysiotherapycenter.github.io`, you need to:
+
+### Step 1: Create GitHub Organization
+
+1. Go to https://github.com/organizations/new
+2. Choose **Create a free organization**
+3. Organization name: `mrvphysiotherapycenter`
+4. Contact email: Your email
+5. Complete the setup
+
+### Step 2: Create Repository in Organization
+
+1. Go to https://github.com/organizations/mrvphysiotherapycenter/repositories/new
+2. Repository name: `mrvphysiotherapycenter.github.io` (MUST be exactly this name)
+3. Description: "MRV Advance Physiotherapy Center - Official Website"
+4. Set to **Public** (required for free GitHub Pages)
+5. **DO NOT** initialize with README, .gitignore, or license (we already have these)
+6. Click "Create repository"
+
+### Step 3: Push Code to GitHub
+
+Run these commands in the terminal:
+
+```bash
+cd /Users/arunkumarm/vmware_git/arun-work/mrv-physiotherapy-website
+
+# Add the remote repository
+git remote add origin https://github.com/mrvphysiotherapycenter/mrvphysiotherapycenter.github.io.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
+```
+
+### Step 4: Access Your Website
+
+Your website will be automatically available at:
+- **GitHub Pages URL**: `https://mrvphysiotherapycenter.github.io`
+- No need to enable Pages settings - it's automatic with this naming convention!
+
+---
+
+## Option 2: Using Personal Account (Alternative)
+
+If you prefer to use your personal account:
+
+### Step 1: Create GitHub Repository
 
 1. Go to https://github.com/new
 2. Repository name: `mrv-physiotherapy-website` (or any name you prefer)
@@ -9,14 +57,12 @@
 5. **DO NOT** initialize with README, .gitignore, or license (we already have these)
 6. Click "Create repository"
 
-## Step 2: Push Code to GitHub
-
-Run these commands in the terminal (from the `mrv-physiotherapy-website` directory):
+### Step 2: Push Code to GitHub
 
 ```bash
 cd /Users/arunkumarm/vmware_git/arun-work/mrv-physiotherapy-website
 
-# Add the remote repository (replace YOUR_USERNAME with your GitHub username)
+# Add the remote repository
 git remote add origin https://github.com/arunkumarmurugesan/mrv-physiotherapy-website.git
 
 # Push to GitHub
@@ -24,7 +70,7 @@ git branch -M main
 git push -u origin main
 ```
 
-## Step 3: Enable GitHub Pages
+### Step 3: Enable GitHub Pages
 
 1. Go to your repository on GitHub
 2. Click on **Settings** tab
@@ -33,13 +79,12 @@ git push -u origin main
 5. Select **main** branch and **/ (root)** folder
 6. Click **Save**
 
-## Step 4: Access Your Website
+### Step 4: Access Your Website
 
 Your website will be available at:
 - **GitHub Pages URL**: `https://arunkumarmurugesan.github.io/mrv-physiotherapy-website/`
-- It may take a few minutes to be live after enabling Pages
 
-## Step 5: Custom Domain (Optional - if you renew mrvphysiotherapycenter.com)
+## Custom Domain Setup (Optional - if you renew mrvphysiotherapycenter.com)
 
 If you want to use your custom domain `mrvphysiotherapycenter.com`:
 

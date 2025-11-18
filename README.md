@@ -55,5 +55,5 @@ Official website for MRV Advance Physiotherapy Center, providing comprehensive p
 
 ## Website
 
-Hosted on GitHub Pages: https://arunkumarmurugesan.github.io/mrv-physiotherapy-website/
+Hosted on GitHub Pages: https://mrvphysiotherapycenter.github.io
 
